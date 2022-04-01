@@ -15,3 +15,7 @@ for i in user_msg.split():
     count += 1
     user_list.append(i)
 print(count, user_list)
+
+for n, m in enumerate(user_msg.split(), start=1):
+    print(f"{n}- {m[:10]}")
+    
